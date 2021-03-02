@@ -1,0 +1,181 @@
+/* ------------------------------------------------------------ */
+/* created with bunch v3 */
+/* Objective Function value = 1.0*/
+/* ------------------------------------------------------------ */
+
+digraph G {
+size= "10,10";
+rotate = 90;
+subgraph cluster0 {
+label = "(SS-L1):Node0x194a1730";
+color = black;
+style = bold;
+
+"Node0x194a1730"[label="Node0x194a1730",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xec70470"[label="Node0xec70470",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xfaa5070"[label="Node0xfaa5070",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xfb205b0"[label="Node0xfb205b0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xec04d00"[label="Node0xec04d00",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x390b4b40"[label="Node0x390b4b40",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xebc2790"[label="Node0xebc2790",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x3a4dac50"[label="Node0x3a4dac50",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xebb9af0"[label="Node0xebb9af0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xfaa5610"[label="Node0xfaa5610",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x4f67120"[label="Node0x4f67120",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1948b7f0"[label="Node0x1948b7f0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1948b960"[label="Node0x1948b960",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1948d700"[label="Node0x1948d700",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xe5dff20"[label="Node0xe5dff20",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster1 {
+label = "(SS-L1):Node0x19485ec0";
+color = black;
+style = bold;
+
+"Node0x19486d90"[label="Node0x19486d90",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19485ec0"[label="Node0x19485ec0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19486310"[label="Node0x19486310",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster2 {
+label = "(SS-L1):Node0x19490e90";
+color = black;
+style = bold;
+
+"Node0x1948fe40"[label="Node0x1948fe40",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1948f7e0"[label="Node0x1948f7e0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19488750"[label="Node0x19488750",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19490e90"[label="Node0x19490e90",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster3 {
+label = "(SS-L1):Node0x1947af00";
+color = black;
+style = bold;
+
+"Node0x19488110"[label="Node0x19488110",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1947af00"[label="Node0x1947af00",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster4 {
+label = "(SS-L1):Node0x194947d0";
+color = black;
+style = bold;
+
+"Node0x19499280"[label="Node0x19499280",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19497f70"[label="Node0x19497f70",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x353aa250"[label="Node0x353aa250",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194947d0"[label="Node0x194947d0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x3a8f8fc0"[label="Node0x3a8f8fc0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x114aa90"[label="Node0x114aa90",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x11a8bd0"[label="Node0x11a8bd0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x112add0"[label="Node0x112add0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x3a90cbb0"[label="Node0x3a90cbb0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x86dd580"[label="Node0x86dd580",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster5 {
+label = "(SS-L1):Node0x1947da00";
+color = black;
+style = bold;
+
+"Node0xf15da30"[label="Node0xf15da30",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x10b6d0f0"[label="Node0x10b6d0f0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xf11a8c0"[label="Node0xf11a8c0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x10cab620"[label="Node0x10cab620",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1947da00"[label="Node0x1947da00",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194930a0"[label="Node0x194930a0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19481af0"[label="Node0x19481af0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19492400"[label="Node0x19492400",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194803c0"[label="Node0x194803c0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xed55420"[label="Node0xed55420",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster6 {
+label = "(SS-L1):Node0x194859e0";
+color = black;
+style = bold;
+
+"Node0x19496990"[label="Node0x19496990",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x34c8a430"[label="Node0x34c8a430",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19495be0"[label="Node0x19495be0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194874e0"[label="Node0x194874e0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x10b6d840"[label="Node0x10b6d840",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194845b0"[label="Node0x194845b0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0xec38930"[label="Node0xec38930",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1947ea00"[label="Node0x1947ea00",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19483120"[label="Node0x19483120",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1947c350"[label="Node0x1947c350",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194822f0"[label="Node0x194822f0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x194859e0"[label="Node0x194859e0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x116bfa00"[label="Node0x116bfa00",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x116c0000"[label="Node0x116c0000",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19484bc0"[label="Node0x19484bc0",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19485620"[label="Node0x19485620",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x1947fb40"[label="Node0x1947fb40",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"Node0x19485d30"[label="Node0x19485d30",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+"Node0x19488110" -> "Node0x1947af00" [color=blue,font=6];
+"Node0x1947da00" -> "Node0xf11a8c0" [color=blue,font=6];
+"Node0x1947da00" -> "Node0x10b6d0f0" [color=blue,font=6];
+"Node0x1947da00" -> "Node0x194803c0" [color=blue,font=6];
+"Node0x1947da00" -> "Node0x1947fb40" [color=blue,font=6];
+"Node0x1947da00" -> "Node0x10cab620" [color=blue,font=6];
+"Node0x1947da00" -> "Node0xf15da30" [color=blue,font=6];
+"Node0x1947da00" -> "Node0x19481af0" [color=blue,font=6];
+"Node0x194803c0" -> "Node0x19492400" [color=blue,font=6];
+"Node0x19485d30" -> "Node0x19485620" [color=blue,font=6];
+"Node0x19485d30" -> "Node0x19484bc0" [color=blue,font=6];
+"Node0x19485d30" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x1948f7e0" -> "Node0x19490e90" [color=blue,font=6];
+"Node0x19492400" -> "Node0xed55420" [color=blue,font=6];
+"Node0x1948b7f0" -> "Node0x1948d700" [color=blue,font=6];
+"Node0x19481af0" -> "Node0x194930a0" [color=blue,font=6];
+"Node0x194874e0" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x194874e0" -> "Node0x19495be0" [color=blue,font=6];
+"Node0x19496990" -> "Node0x19499280" [color=blue,font=6];
+"Node0x19496990" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x1947c350" -> "Node0x194822f0" [color=blue,font=6];
+"Node0x19485ec0" -> "Node0x19486310" [color=blue,font=6];
+"Node0x1947fb40" -> "Node0x19484bc0" [color=blue,font=6];
+"Node0x1947fb40" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x1947fb40" -> "Node0x19485d30" [color=blue,font=6];
+"Node0x1947ea00" -> "Node0x19483120" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xfb205b0" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xec70470" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xfaa5070" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xebb9af0" [color=blue,font=6];
+"Node0x194a1730" -> "Node0x3a4dac50" [color=blue,font=6];
+"Node0x194a1730" -> "Node0x390b4b40" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xebc2790" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xfaa5610" [color=blue,font=6];
+"Node0x194a1730" -> "Node0xec04d00" [color=blue,font=6];
+"Node0x194a1730" -> "Node0x4f67120" [color=blue,font=6];
+"Node0x19483120" -> "Node0x10b6d840" [color=blue,font=6];
+"Node0x19483120" -> "Node0x194845b0" [color=blue,font=6];
+"Node0x19483120" -> "Node0xec38930" [color=blue,font=6];
+"Node0x19486d90" -> "Node0x19485ec0" [color=blue,font=6];
+"Node0x1948b960" -> "Node0x1948b7f0" [color=blue,font=6];
+"Node0x1948d700" -> "Node0xe5dff20" [color=blue,font=6];
+"Node0x19499280" -> "Node0x353aa250" [color=blue,font=6];
+"Node0x19499280" -> "Node0x19497f70" [color=blue,font=6];
+"Node0x19499280" -> "Node0x194947d0" [color=blue,font=6];
+"Node0x194947d0" -> "Node0x86dd580" [color=blue,font=6];
+"Node0x194947d0" -> "Node0x112add0" [color=blue,font=6];
+"Node0x194947d0" -> "Node0x3a8f8fc0" [color=blue,font=6];
+"Node0x194947d0" -> "Node0x3a90cbb0" [color=blue,font=6];
+"Node0x194947d0" -> "Node0x114aa90" [color=blue,font=6];
+"Node0x194947d0" -> "Node0x11a8bd0" [color=blue,font=6];
+"Node0x19490e90" -> "Node0x19488750" [color=blue,font=6];
+"Node0x19495be0" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x19495be0" -> "Node0x19496990" [color=blue,font=6];
+"Node0x19485620" -> "Node0x194859e0" [color=blue,font=6];
+"Node0x19485620" -> "Node0x19484bc0" [color=blue,font=6];
+"Node0x19485620" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x19485620" -> "Node0x1947af00" [color=blue,font=6];
+"Node0x19485620" -> "Node0x19485ec0" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x19486d90" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x34c8a430" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x116bfa00" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x116c0000" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x194874e0" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x1947af00" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x19488110" [color=blue,font=6];
+"Node0x194859e0" -> "Node0x19485ec0" [color=blue,font=6];
+"Node0x1948fe40" -> "Node0x1948f7e0" [color=blue,font=6];
+}

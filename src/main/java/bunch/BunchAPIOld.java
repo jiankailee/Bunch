@@ -161,7 +161,7 @@ setClusteringMethod(int iMethod)
   String method;
 
    alg = iMethod;
-
+    System.out.println(iMethod);
    /**
     * Set the clustering method based on the method id.  The mehod is a string
     * used to select the name from the factory.  This is not a good coding

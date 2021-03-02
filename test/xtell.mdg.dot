@@ -1,0 +1,106 @@
+/* ------------------------------------------------------------ */
+/* created with bunch v3 */
+/* Objective Function value = 1.062937062937063*/
+/* ------------------------------------------------------------ */
+
+digraph G {
+size= "10,10";
+rotate = 90;
+subgraph cluster0 {
+label = "(SS-L1):tty";
+color = black;
+style = bold;
+
+"time"[label="time",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"utmp"[label="utmp",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"tty"[label="tty",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"string"[label="string",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster1 {
+label = "(SS-L1):child";
+color = black;
+style = bold;
+
+"inet"[label="inet",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"pwd"[label="pwd",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"stat"[label="stat",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"child"[label="child",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"common"[label="common",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"ident"[label="ident",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"netdb"[label="netdb",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"errno"[label="errno",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"unistd"[label="unistd",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"in"[label="in",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"daemon"[label="daemon",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"signal"[label="signal",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"wait"[label="wait",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"syslog"[label="syslog",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"socket"[label="socket",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster2 {
+label = "(SS-L1):xtelld";
+color = black;
+style = bold;
+
+"stdlib"[label="stdlib",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"stdio"[label="stdio",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"xtelld"[label="xtelld",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+"tty" -> "string" [color=blue,font=6];
+"tty" -> "stat" [color=blue,font=6];
+"tty" -> "utmp" [color=blue,font=6];
+"tty" -> "common" [color=blue,font=6];
+"tty" -> "stdlib" [color=blue,font=6];
+"tty" -> "stdio" [color=blue,font=6];
+"tty" -> "time" [color=blue,font=6];
+"tty" -> "child" [color=blue,font=6];
+"child" -> "syslog" [color=blue,font=6];
+"child" -> "errno" [color=blue,font=6];
+"child" -> "unistd" [color=blue,font=6];
+"child" -> "daemon" [color=blue,font=6];
+"child" -> "netdb" [color=blue,font=6];
+"child" -> "inet" [color=blue,font=6];
+"child" -> "ident" [color=blue,font=6];
+"child" -> "string" [color=blue,font=6];
+"child" -> "common" [color=blue,font=6];
+"child" -> "tty" [color=blue,font=6];
+"child" -> "stdlib" [color=blue,font=6];
+"child" -> "socket" [color=blue,font=6];
+"child" -> "xtelld" [color=blue,font=6];
+"common" -> "stdio" [color=blue,font=6];
+"common" -> "child" [color=blue,font=6];
+"common" -> "unistd" [color=blue,font=6];
+"common" -> "daemon" [color=blue,font=6];
+"common" -> "stat" [color=blue,font=6];
+"common" -> "string" [color=blue,font=6];
+"common" -> "tty" [color=blue,font=6];
+"common" -> "pwd" [color=blue,font=6];
+"common" -> "stdlib" [color=blue,font=6];
+"common" -> "socket" [color=blue,font=6];
+"xtelld" -> "syslog" [color=blue,font=6];
+"xtelld" -> "stdio" [color=blue,font=6];
+"xtelld" -> "child" [color=blue,font=6];
+"xtelld" -> "errno" [color=blue,font=6];
+"xtelld" -> "daemon" [color=blue,font=6];
+"xtelld" -> "unistd" [color=blue,font=6];
+"xtelld" -> "string" [color=blue,font=6];
+"xtelld" -> "common" [color=blue,font=6];
+"xtelld" -> "signal" [color=blue,font=6];
+"xtelld" -> "stdlib" [color=blue,font=6];
+"xtelld" -> "socket" [color=blue,font=6];
+"stat" -> "common" [color=blue,font=6];
+"stat" -> "tty" [color=blue,font=6];
+"daemon" -> "syslog" [color=blue,font=6];
+"daemon" -> "stdio" [color=blue,font=6];
+"daemon" -> "child" [color=blue,font=6];
+"daemon" -> "errno" [color=blue,font=6];
+"daemon" -> "unistd" [color=blue,font=6];
+"daemon" -> "wait" [color=blue,font=6];
+"daemon" -> "string" [color=blue,font=6];
+"daemon" -> "common" [color=blue,font=6];
+"daemon" -> "in" [color=blue,font=6];
+"daemon" -> "signal" [color=blue,font=6];
+"daemon" -> "stdlib" [color=blue,font=6];
+"daemon" -> "socket" [color=blue,font=6];
+"daemon" -> "xtelld" [color=blue,font=6];
+}

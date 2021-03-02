@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------ */
+/* created with bunch v3 */
+/* Objective Function value = 1.0*/
+/* ------------------------------------------------------------ */
+
+digraph G {
+size= "10,10";
+rotate = 90;
+subgraph cluster0 {
+label = "(SS-L0):Server";
+color = black;
+style = bold;
+
+"Server"[label="Server",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"GetOpt"[label="GetOpt",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster1 {
+label = "(SS-L0):Servant";
+color = black;
+style = bold;
+
+"Servant"[label="Servant",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"MyFile"[label="MyFile",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"_ServerBunchImplBase"[label="_ServerBunchImplBase",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+"Servant" -> "_ServerBunchImplBase" [color=blue,font=6];
+"Servant" -> "MyFile" [color=blue,font=6];
+"Server" -> "GetOpt" [color=blue,font=6];
+"Server" -> "Servant" [color=blue,font=6];
+}
