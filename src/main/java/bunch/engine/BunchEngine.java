@@ -893,6 +893,7 @@ arrangeLibrariesClientsAndSuppliers(Graph g,
     String cApproach = (String)bunchArgs.get(BunchProperties.CLUSTERING_APPROACH);
     if(cApproach.equalsIgnoreCase(BunchProperties.AGGLOMERATIVE))
     {
+
       Graph g = clusteringMethod_d.getBestGraph().cloneGraph();
 
       int []cNames = g.getClusterNames();  //c.getClusterNames();
@@ -929,7 +930,6 @@ arrangeLibrariesClientsAndSuppliers(Graph g,
         //          currentViewC.force();
         //          bestCLL.addLast(currentViewC);
                   //bestCLL.addLast(clusteringMethod_x.getBestCluster());
-
         g = clusteringMethod_d.getBestGraph().cloneGraph();
                   //c = clusteringMethod_x.getBestCluster();
         cNames = g.getClusterNames();  //c.getClusterNames();
@@ -1101,6 +1101,8 @@ arrangeLibrariesClientsAndSuppliers(Graph g,
 
   public boolean run(Hashtable args)
   {
+    System.out.println("Bunch Engine run");
+    System.out.println(args.toString());
     bunchArgs = args;
 
     String runMode = (String)bunchArgs.get(BunchProperties.RUN_MODE);
@@ -1154,6 +1156,7 @@ class ExecuteClusteringEngine
         public void run()
         {
         try{
+
           clusteringProcessThread = Thread.currentThread();
 
           startTime = System.currentTimeMillis();

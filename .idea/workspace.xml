@@ -5,19 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d13d128a-a93f-4b54-9bce-ac037dca110e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bunch/BunchTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bunch/DataCleaning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bunch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bunch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bunch/DataExtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BunchStats.log" beforeDir="false" afterPath="$PROJECT_DIR$/BunchStats.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bunchtmp.dot" beforeDir="false" afterPath="$PROJECT_DIR$/bunchtmp.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bunch/BunchAPIOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bunch/BunchAPIOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bunch/BunchTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bunch/BunchTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bunch/DataCleaning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bunch/DataCleaning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bunch/NextAscentHillClimbingClusteringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bunch/NextAscentHillClimbingClusteringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bunch/engine/BunchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bunch/engine/BunchEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ApolloCallGraph.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ApolloCallGraph_modified.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Apollo_small.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Apollo_small.mdg.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Apollo_small.mdg.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/.~lock.ApolloCallGraph_788200-788300_modified.mdg.dot#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788000-788500.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788000-788500.mdg.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788000-788500_modified.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788000-788500_modified.mdg.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788000-788500_modified.mdg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788000-788500_modified.mdg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788200-788300.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788200-788300_modified.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788200-788300_modified.mdg.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BunchTest/ApolloCallGraph_788200-788300_modified.mdg.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output.mdg.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output.mdg.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output_1000.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output_500.mdg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output_500.mdg.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output_500.mdg.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output_500.mdg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/output_500.mdg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/server.mdg.eps" beforeDir="false" afterPath="$PROJECT_DIR$/test/server.mdg.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/xntp.mdg.bunch" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,28 +78,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BunchAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bunch.api.BunchAPITest" />
-      <module name="Bunch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bunch.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BunchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bunch.BunchTest" />
       <module name="Bunch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bunch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,12 +88,6 @@
     <configuration name="BunchTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bunch.BunchTesting" />
       <module name="Bunch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bunch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,23 +95,13 @@
     <configuration name="DataCleaning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bunch.DataCleaning" />
       <module name="Bunch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bunch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="DataExtract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bunch.DataExtract" />
+      <module name="Bunch" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Bunch" />
-      <item itemvalue="Application.BunchAPITest" />
       <item itemvalue="Application.BunchTesting" />
       <item itemvalue="Application.BunchTest" />
       <item itemvalue="Application.DataCleaning" />
+      <item itemvalue="Application.DataExtract" />
       <item itemvalue="Maven.Bunch [package]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BunchTesting" />
+        <item itemvalue="Application.DataExtract" />
         <item itemvalue="Application.DataCleaning" />
         <item itemvalue="Application.Bunch" />
         <item itemvalue="Application.BunchTest" />
-        <item itemvalue="Application.BunchAPITest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +167,24 @@
       <workItem from="1614127517978" duration="465000" />
       <workItem from="1614210671549" duration="5187000" />
       <workItem from="1614272789342" duration="1007000" />
-      <workItem from="1614637146204" duration="4372000" />
+      <workItem from="1614637146204" duration="4771000" />
+      <workItem from="1614985963801" duration="1212000" />
+      <workItem from="1615435201466" duration="7510000" />
+      <workItem from="1615591524524" duration="2091000" />
+      <workItem from="1615833865456" duration="1239000" />
+      <workItem from="1615920332122" duration="669000" />
+      <workItem from="1616013543614" duration="8721000" />
+      <workItem from="1616083443717" duration="2903000" />
+      <workItem from="1616535737999" duration="705000" />
+      <workItem from="1616620198530" duration="16023000" />
+      <workItem from="1616687842327" duration="1284000" />
+      <workItem from="1617055658420" duration="25000" />
+      <workItem from="1617218587646" duration="17142000" />
+      <workItem from="1617396146630" duration="4401000" />
+      <workItem from="1618865312779" duration="216000" />
+      <workItem from="1618948313930" duration="4008000" />
+      <workItem from="1619022294831" duration="1235000" />
+      <workItem from="1619038527771" duration="1893000" />
     </task>
     <servers />
   </component>
@@ -198,5 +202,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="bunch.api.BunchAPI" memberName="resultsHashtable" />
+        <PinnedItemInfo parentTag="bunch.api.BunchAPI" memberName="bunchArgs" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

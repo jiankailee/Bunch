@@ -1,6 +1,0 @@
-SS(ntp_config.ss) = atolfp, mstolfp, ctype, hextoint, authusekey, authreadkeys, authparity, octtoint, in, ntp_request, stdlib, atoint, decodenetnum, findconfig, ntp_config, wait, syssignal, signal
-SS(systime.ss) = ntp_timer, ntpd, sched, mman, errno, stat, termios, refclock_leitch, humandate, ranny, time, ntp_unixtime, systime, fcntl, syslog, refclock_arc
-SS(ntp_io.ss) = stropts, socket, ntp_io, select, ntp_intres, atouint, netdb, numtohost, calyearstart, refclock_datum, clocktime, libio, getopt
-SS(ntp_refclock.ss) = refclock_trak, buftvtots, caltontp, ntp_util, emalloc, ntp_filegen, caljulian, fptoa, fptoms, dofptoa, ntp_unixclock, timex, calleapwhen, ntp_leap, refclock_nmea, refclock_hpgps, unistd, dolfptoa, mfptoms, uglydate, ntp_monitor, netof, ntp_restrict, ntp_control, mfptoa, ntp_loopfilter, ntp_proto, setjmp, numtoa, utsname, ntp_peer, refclock_as2201, refclock_pst, refclock_arbiter, ntp_refclock, refclock_local, refclock_atom, refclock_wwvb
-SS(stdio.ss) = refnumtoa, clocktypes, ntp_syslog, msyslog, refclock_usno, stdio, refclock_true, inttoa, modetoa, tvtoa, lib_strbuf, utvtoa, prettydate, uinttoa
-SS(string.ss) = hextolfp, statestr, string, authdecrypt, authdes, a_md5encrypt, auth12crypt, authencrypt, authkeys, md5, a_md512crypt, a_md5decrypt

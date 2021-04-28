@@ -57,6 +57,7 @@
 
 package bunch;
 
+import java.sql.SQLOutput;
 import java.util.*;
 import javax.swing.*;
 
@@ -76,6 +77,8 @@ protected
 Cluster
 getLocalMaxGraph(Cluster c)
 {
+    //System.out.println("next ascent hill climb clustering method-getlocalMaxGraph");
+//    System.out.println("c.converged:"+c.converged);
     if (c == null) return null;
 
     boolean foundbetter;
@@ -96,7 +99,7 @@ getLocalMaxGraph(Cluster c)
 
     double maxOF = maxC.getObjFnValue();
     double originalMax = maxOF;
-
+    //System.out.println("orginalMax: "+ originalMax);
     int[] clustNames = c.getClusterNames();
     int[] clusters = c.getClusterVector();
     int[] maxClust = maxC.getClusterVector();
@@ -175,10 +178,12 @@ getLocalMaxGraph(Cluster c)
 //System.out.println();
 //System.out.println("Current node = " + currNode + " current Cluster = " + currClust);
         int j=0;
+//        System.out.println("clustNames.length:"+clustNames.length);
         for (; j<clustNames.length; ++j) {
             if ((!locks[currNode]) && (clustNames[rndClustNameOrdering[j]] != currClust)) {
 
                 currClustersExamined++;
+//                System.out.println("currClustersExamined:"+currClustersExamined+" partitionsToExamine:"+partitionsToExamine+" foundbetter:"+foundbetter);
                 if((foundbetter)&&(currClustersExamined>partitionsToExamine))
                 {
                     if(saAlg != null)
